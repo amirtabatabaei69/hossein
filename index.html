@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Marvel&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f404dd5be2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+    integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Hossein | Welcome</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark  fixed-top" id="home">
+    <div class="container d-flex">
+      <a class="navbar-brand" href="#">Hossein</a>
+
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span
+          class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home-section">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Conatact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home-section">
+    <div class="dark-overlay">
+      <div class="home-inner">
+        <div class="container">
+          <div class="row justify-content-start text-white">
+            <div class="col-lg-4 ">
+              <div class="d-flex flex-column ">
+                <h1 class="dysplay-2">Lorem ipsum dolor sit amet.</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, consectetur!</p>
+                <button class="btn btn-dark btn-inline-block">Read More</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <h1 class="text-center">Gallery</h1>
+      <div class="row mb-4">
+        <div class="col-sm-4  mb-4 ">
+          <a href="./img/1.jpg" data-toggle="lightbox">
+            <img src="./img/1.jpg" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-sm-4  mb-4">
+          <a href="img/2.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="img/2.jpg" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-sm-4  mb-4">
+          <a href="img/3-2.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+            <img class="img-fluid" src="img/3-2.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4  mb-4">
+          <a href="img/4.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+            <img class="img-fluid" src="img/4.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4  mb-4">
+          <a href="img/5-2.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+            <img class="img-fluid" src="img/5-2.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4  mb-4">
+          <a href="./img/6.png" data-toggle="lightbox" data-gallery="img-gallery">
+            <img class="img-fluid" src="./img/6.png" alt="">
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <section id="service" class="bg-dark">
+  </section>
+
+
+  <section id="contact" class="bg-light pt-5">
+    <div class="container">
+
+
+      <div>
+        <h3 class="display-3 text-center">Get In Touch</h3>
+        <p class="lead text-center">Please Fill The Form Below To Contact Us</p>
+
+        <form class="mb-3">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fa fa-user"></i></span>
+            </div>
+            <input type="text" placeholder="Name" class="form-control">
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+            </div>
+            <input type="email" placeholder="Email" class="form-control">
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fa fa-pencil"></i></span>
+            </div>
+            <textarea type="text" placeholder="Message" class="form-control" rows="5"></textarea>
+          </div>
+
+          <input type="submit" value="Submit" class="btn btn-dark btn-block btn-lg">
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+
+  <footer id="main-footer" class="py-3 bg-dark text-white">
+    <p class="text-center">
+      Hossein &copy; 2020,All Rights Reserved.
+    </p>
+  </footer>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"
+    integrity="sha256-jGAkJO3hvqIDc4nIY1sfh/FPbV+UK+1N+xJJg6zzr7A=" crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>

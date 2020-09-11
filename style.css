@@ -1,0 +1,63 @@
+#home .container #navbarNav ul li a:hover{
+  color: orange;
+}
+#home .container #navbarNav ul li a{
+  color: #fff;
+}
+
+body {
+  font-family: 'Marvel', sans-serif;
+  font-size: 1.2rem;
+  background: #fff ;
+  color: #333;
+}
+
+.navbar {
+  background-image: linear-gradient(rgb(68, 67, 67),rgb(99, 95, 95));
+  opacity: 0.8;
+}
+
+.navbar .navbar-brand {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+#home-section {
+  background: url('./img/back-alt.jpg') no-repeat center center;
+  background-size:cover ;
+  background-attachment: fixed;
+  min-height: 700px;
+  color: rgb(0, 0, 0);
+}
+
+#home-section .home-inner {
+  padding-top: 200px;
+}
+
+#home-section .dark-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+}
+
+
+#service {
+   height: 2px;
+}
+
+
+  @media (max-width: 600px) {
+
+    
+
+    #gallery .row div{
+      width: 150px;
+    }
+
+
+  }
+
+
